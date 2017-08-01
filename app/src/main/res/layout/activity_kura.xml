@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    android:contextClickable="true"
+    android:orientation="vertical"
+    android:weightSum="1"><![CDATA[
+    tools:context="com.example.hgm.ayak.kura">
+
+
+    ]]>
+
+    <TextView
+        android:id="@+id/labelIsim"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Mehmet DEMİRCİ"
+        android:textAlignment="viewEnd"
+        android:textColor="@android:color/holo_orange_dark" />
+
+
+    <Button
+        android:id="@+id/btnTekKuracek"
+        android:layout_width="356dp"
+        android:layout_height="37dp"
+        android:layout_marginLeft="16dp"
+        android:background="@android:color/holo_orange_light"
+        android:text="TEK KURA ÇEK"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.89" />
+
+    <LinearLayout
+        android:id="@+id/socialMediaButtons"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:orientation="horizontal" >
+
+
+
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="134dp"
+            android:layout_height="134dp"
+            android:background="@drawable/gures_2" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="115dp"
+            android:layout_height="37dp" />
+
+        <TextView
+            android:id="@+id/labelLogo"
+            android:layout_width="134dp"
+            android:layout_height="134dp"
+            android:background="@drawable/gures_2" />
+
+
+    </LinearLayout>
+
+
+    <TextView
+        android:id="@+id/labelSonuc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:autoText="false"
+        android:gravity="center_horizontal"
+        android:textColor="@android:color/background_dark"
+        android:textSize="100dp"
+        tools:layout_editor_absoluteX="40dp"
+        tools:layout_editor_absoluteY="78dp"
+        android:layout_weight="0.77" />
+
+    <TextView
+        android:id="@+id/labelKalan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:background="#FFFFFF"
+        android:textSize="12sp"
+        android:layout_weight="0.06" />
+
+    <Button
+        android:id="@+id/btnKuracek"
+        android:layout_width="344dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:background="#4169E1"
+        android:text="Kura Çek"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.89"
+        android:layout_weight="0.09" />
+
+</LinearLayout>

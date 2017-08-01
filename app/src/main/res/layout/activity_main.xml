@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1"
+    android:background="#FFFFFF"
+    android:contextClickable="true">
+    tools:context="com.example.hgm.ayak.MainActivity">
+
+
+    <TextView
+        android:id="@+id/etiket"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Mehmet Dermirci"
+        android:textAlignment="viewEnd"
+        android:textColor="@android:color/holo_orange_light" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_weight="0.65"
+        android:background="@drawable/gures_2" />
+
+    <TextView
+        android:id="@+id/labelgiris"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:autoText="false"
+        android:text="Kura Sayısını Giriniz"
+        android:textSize="30sp"
+        tools:layout_editor_absoluteX="44dp"
+        tools:layout_editor_absoluteY="137dp"
+        android:layout_weight="0.04" />
+
+    <EditText
+        android:id="@+id/girisEdittext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.24"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="20"
+        android:textSize="30sp" />
+
+    <Button
+        android:id="@+id/btnKura"
+        android:layout_width="232dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginLeft="10dp"
+        android:layout_weight="0.04"
+        android:background="#4169E1"
+        android:text="İleri>>>"
+        android:textSize="30sp"
+        tools:layout_editor_absoluteY="238dp" />
+
+
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="1">
+
+
+    </LinearLayout>
+</LinearLayout>
